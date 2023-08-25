@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: rgb(21, 20, 20);
+}
+.navbar img {
+height: 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    border:1px solid white;
+
+
+}
+
+.navbar .language{
+    height:35px;
+    width:100px;
+    display: flex;
+    color:white;
+    align-items: center;
+    background-color: rgb(43, 41, 41);
+    margin:15px;
+    border-radius:5px;
+
+
+}
+.navbar button{
+    background-color:red;
+    height:35px;
+    width:100px;
+    margin:15px;
+    color:white;
+    font-weight: bolder;
+    font-size:0.8rem;
+    border-radius:3px;
+
+}
+
+.navbar div{
+    display: flex;
+}
+
+.firstsection{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:35vh;
+    padding:25px;
+    border:1px solid white;
+
+
+    
+
+}
+.firstsection h1{ 
+    font-weight: bolder;
+    font-size:3rem;
+}
+.firstsection p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin:25px;
+}
+.firstsection input{
+    height:35px;
+    width:300px;
+    border-radius: 3px;
+    padding:3px;
+    margin:15px auto;
+    font-weight: bold;
+    opacity:0.5;
+}
+.firstsection button{
+    background-color: red;
+    color:white;
+    height: 43px;
+    width:150px;
+    border-radius:3px;
+    font-weight: bold;
+}
+.secondsection{
+    height:35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid white;
+}
+
+.secondsection .description{
+    color:white;
+    width: 50%;
+}
+.description h1{
+font-size: 3rem;
+font-weight: bold;
+}
+.description p{
+    font-size:1.5rem;
+    word-wrap: break-word;
+}
+.secondsection  img{
+    width:20%;
+}
+
+.sectionthree{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color:white;
+border:1px solid white;
+}
+
+.questions{
+    background-color:black;
+    color:white;
+    height:5vh;
+    width:80vh;
+    border:1px solid white;
+    display: flex;
+    align-items: center;
+    padding:5px;
+    border-radius: 5px;
+    margin:15px auto;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer1{
+    margin:15px 25px;
+    height: 100px;
+    width:10vw;
+}
+
+.footer ul{
+    color:white;
+    list-style: none;
+}
+footer ul li a{
+    color:white;
+}
